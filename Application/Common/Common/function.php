@@ -2,7 +2,7 @@
 
 
 
-function post ( $url ,  $param = array ()){
+function curl_post ( $url ,  $param = array ()){
 
 if (! is_array ( $param )){
 
